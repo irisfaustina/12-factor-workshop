@@ -6,7 +6,7 @@ class DoneForNow {
 
 function DetermineNextStep(
     thread: string 
-) -> DoneForNow {
+) -> CalculatorTools | DoneForNow {
     client "openai/gpt-4o"
 
     prompt #"
