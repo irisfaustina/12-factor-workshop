@@ -1,0 +1,4 @@
+// ./walkthrough/00-.gitignore
+baml_client/
+node_modules/
+.env
