@@ -2,8 +2,6 @@
 // agents is to be updated as functional baml is updated
 type CalculatorTools = AddTool | SubtractTool | MultiplyTool | DivideTool
 
-
-
 class AddTool {
     intent "add"
     a int | float
